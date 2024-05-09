@@ -1,0 +1,54 @@
+
+
+body{
+    background-color: rgb(34, 32, 32);
+}
+
+.container{
+    max-width: 800px;
+    max-height: 300px;
+    overflow-y: scroll;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(173, 173, 173);
+}
+
+header h1{
+    font-size: 50px;
+    text-align: center;
+
+}
+
+input,
+button{
+    justify-content: space-between;
+    font-size: 24px;
+    padding: 4px;
+    margin-right: 8px 4px;
+    border: 3px black solid;
+}
+
+
+button{
+    cursor: pointer;
+    font-size: 24px;
+}
+
+ul li{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+#finish{
+    font-size: 24px;
+    margin-left: 180px;
+    margin-bottom: 6px;
+    border: 2px black solid;
+    
+}
